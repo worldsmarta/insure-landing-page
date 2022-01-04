@@ -1,0 +1,23 @@
+.bgimg{
+    background-image: url('./images/image-intro-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.icon:hover{
+    fill: #2c2640;
+}
+
+#block{
+    position: absolute;
+    background-color: #2c2640;
+  height: 0;
+  overflow: hidden;
+  transition: height 300ms linear;
+
+}
+
+#block.active{
+    height: 240px;
+}
